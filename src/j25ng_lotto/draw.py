@@ -1,5 +1,5 @@
 import random
 
 def lotto():
-    l = random.sample((1,46),6)
+    l = random.sample(range(1,46),6)
     print(l)
